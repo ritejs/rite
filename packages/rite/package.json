@@ -1,0 +1,12 @@
+{
+  "name": "@ritejs/cli",
+  "version": "0.1.0",
+  "description": "ritejs cli",
+  "author": "Yorululu <yr6kami@gmail.com>",
+  "license": "MIT",
+  "main": "",
+  "module": "",
+  "scripts": {
+    "start": "tsc -w src/*"
+  }
+}

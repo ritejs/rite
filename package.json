@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "name": "root",
+  "version": "0.1.0",
+  "description": "rite",
+  "author": "Yorululu <yr6kami@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "create": "lerna create"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com"
+  },
+  "devDependencies": {
+    "lerna": "3.22.1",
+    "typescript": "3.9.7"
+  }
+}
